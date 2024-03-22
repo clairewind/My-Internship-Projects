@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stl.css">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <h2 align="center">Registration Form</h2>
+    <br>
+    <hr>
+    <br><br>
+    <div class="container">
+        <form> 
+            <b>Username </b>: <input name="name" type="text"> <br><br> 
+            <b>Email id </b>: <input name="email" type="Email"> <br><br>
+            <b>Password </b>: <input name="pswd" type="Password"> <br><br>
+            <button type="button" onclick="submitForm()"> <b> Submit </b> </button> <br><br>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            alert('Form Submitted Successfully !!');
+        }
+    </script>
+</body>
+</html>
